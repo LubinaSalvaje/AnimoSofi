@@ -1,40 +1,152 @@
 <!doctype html>
-<html>
+<html lang="en">
+
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>reveal.js – The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
 		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
 
-		<!-- Theme used for syntax highlighted code -->
+		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
 	</head>
+
 	<body>
+
 		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<a href="https://revealjs.com">
+						<img src="https://www.creativefabrica.com/wp-content/uploads/2018/06/Enjoy-the-little-things-580x386.jpg" alt="reveal.js logo" style="height: 280px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+					</a>
+					<h3>“Si no te gusta algo, cámbialo. Si no puedes cambiarlo, cambia tu forma de pensar”</h3>
+					<p>
+						<small>Hecho por <a href="https://www.instagram.com/lucasao__/">Lucas Gutiérrez Prada</a></small>
+					</p>
+				</section>
+
+				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)" data-background="#dddddd">
+					<h2>BUENA CARA A TIEMPOS MALOS</h2>
+					<p>Está claro que todo el mundo tenemos mejores y peores momento...</p>
+					<div class="r-hstack justify-center">
+						<div data-id="box1" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"></div>
+						<div data-id="box2" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"></div>
+						<div data-id="box3" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"></div>
+					</div>
+				</section>
+
+				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)" data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
+					<div class="r-hstack justify-center">
+						<div data-id="box1" data-auto-animate-delay="0" style="background: cyan; width: 150px; height: 100px; margin: 10px;"></div>
+						<div data-id="box2" data-auto-animate-delay="0.1" style="background: magenta; width: 150px; height: 100px; margin: 10px;"></div>
+						<div data-id="box3" data-auto-animate-delay="0.2" style="background: yellow; width: 150px; height: 100px; margin: 10px;"></div>
+					</div>
+					<h2 style="margin-top: 20px;">Pero, cuando te sientas...</h2>
+				</section>
+
+				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)" data-transition="slide" data-background="#b5533c" data-background-transition="zoom">
+					<div class="r-stack">
+						<div data-id="box1" style="background: cyan; width: 300px; height: 300px; border-radius: 200px;"></div>
+						<div data-id="box2" style="background: magenta; width: 200px; height: 200px; border-radius: 200px;"></div>
+						<div data-id="box3" style="background: yellow; width: 100px; height: 100px; border-radius: 200px;"></div>
+					</div>
+					<h2 style="margin-top: 20px;">Desanimada, vacía o sola</h2>
+				</section>
+
+				<section data-auto-animate data-transition="fade" data-background="#F06AE4" data-background-transition="convex"> 
+					<h2 data-id="code-title">No te lo quedes, compártelo</h2>
+					<pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers="|4,8-11|17|22-24"><script type="text/template">
+						Prevalece a la familia antes que nada;
+
+						Apóyate en tus amigos más cercanos() {
+
+						  Ya bien sabrás de qué gente rodearte, gente que siempre te apoya, te cuida, te hace reir, etcétera.
+
+						  No se trata de una elección obligatoria, tu corazón sabrá a quién tienes que escoger
+
+						}
+
+						Comparte, escucha y no menos importante {
+						  
+							Cuida de los que te cuidan.
+							
+							¿A veces sientes vacío o estás desanimada? Coméntalo con esas personas que te quieren, no hace falta que compartas sus ideas
+
+						
+							¡Escucha, piensa y escoge tus decisiones!
+
+						  );
+						}
+					</script></code></pre>
+				</section>
+
+				<section data-transition="zoom" data-background="#7F6AF0" data-background-transition="fade">
+					<section>
+						<h2>ACUÉRDATE SIEMPRE DE ELLOS</h2>
+						<p>Los de verdad, en las buenas y en las malas, siempre estarán contigo</p>
+						<br>
+						<a href="#" class="navigate-down">
+							<img class="r-frame" style="background: rgba(255,255,255,0.1);" width="178" height="238" data-src="https://static.slid.es/reveal/arrow.png" alt="Down arrow">
+						</a>
+					</section>
+					<section>
+						<img src="./images/abus.jfif"  height="500" width="400">
+					</section>
+					<section>
+						<img src="./images/hermana.jfif"  height="500" width="400">
+					</section>
+					<section>
+						<img src="./images/amigas.jfif"  height="500" width="700">
+						<br>
+						<a href="#/2">
+							<img class="r-frame" style="background: rgba(255,255,255,0.1); transform: rotate(180deg);" width="178" height="238" data-src="https://static.slid.es/reveal/arrow.png" alt="Up arrow">
+						</a>
+					</section>
+				</section>
+
+				<section data-transition="fade" data-background="#F0F06A" data-background-transition="convex">
+					<h2>¡QUE SIEMPRE SE VEA ESTA SONRISA!<h2>
+						<img src="./images/menor.jfif"  height="500" width="400">
+				</section>
+
 			</div>
+
 		</div>
 
 		<script src="dist/reveal.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
 		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/search/search.js"></script>
 		<script src="plugin/markdown/markdown.js"></script>
 		<script src="plugin/highlight/highlight.js"></script>
 		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
+
+			// Also available as an ES module, see:
+			// https://revealjs.com/initialization/
 			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
 				hash: true,
 
 				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
 			});
+
 		</script>
+
 	</body>
 </html>
